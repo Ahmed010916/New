@@ -133,6 +133,12 @@ html {
     }
 }
 
+@media (max-width: 576px) {
+    .section-aboutapp .screen {
+        width: 200px;
+    }
+}
+
 .section-aboutapp .about-p {
     color: #485da7;
     font-weight: bold;
@@ -214,12 +220,6 @@ html {
     top: 30%;
 }
 
-@media (max-width: 576px) {
-    .footbody {
-        top: 7%;
-    }
-}
-
 @media (max-width: 992px) {
     .footbody {
         top: 18%;
@@ -230,6 +230,12 @@ html {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .footbody {
+        top: 0%;
     }
 }
 
