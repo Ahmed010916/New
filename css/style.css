@@ -3,7 +3,9 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
-
+html,body{
+    overflow-x: hidden;
+}
 /* ////////////////////////////////////// */
 .main-head {
     height: 700px;
