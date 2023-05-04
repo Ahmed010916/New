@@ -1,0 +1,309 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-head {
+    height: 700px;
+    background-image: url(./../assets/Masktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+.main-head .navbar .logo {
+    width: 70px;
+    height: 50px;
+}
+
+.main-head .navbar .navbar-toggler:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn-login {
+    font-weight: 500;
+    color: #485da7;
+    padding: 3px 0px;
+    background: rgb(255, 233, 72);
+    background: linear-gradient(90deg, rgba(255, 233, 72, 1) 16%, rgba(0, 183, 237, 0.7987570028011204) 79%);
+}
+
+.btn-Usher {
+    border: 2px solid white;
+    padding: 3px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-Brans {
+    border: 2px solid white;
+    padding: 3px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.offcanvas.offcanvas-end {
+    width: 40%;
+}
+
+/* /////////////////////// */
+
+
+.section-header {
+    color: white;
+    bottom: 12%;
+    max-width: 100%;
+
+}
+
+.section-header .btnbtnUSHERING {
+    cursor: pointer;
+
+}
+
+@media (max-width: 992px) {
+    .section-header {
+        bottom: auto;
+        top: 20%;
+    }
+
+}
+
+.section-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .section-header h1 {
+        font-size: 2rem;
+    }
+
+
+}
+
+.section-header .ushering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header p+div {
+    text-transform: capitalize;
+    width: fit-content;
+    padding: 2px 10px;
+    font-weight: bold;
+
+    background: linear-gradient(90deg, rgba(68, 93, 167, 1) 35%, rgba(255, 255, 255, 0.4) 92%);
+}
+
+
+.section-header .phone-main {
+    flex: 1;
+    display: flex;
+}
+
+.section-header .phone {
+    width: 250px;
+}
+
+
+@media (min-width: 1200px) {}
+
+/* ////////////////////////// */
+
+.section-aboutapp .About-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-aboutapp .screen {
+    width: 450px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .section-aboutapp .screen {
+        width: 400px;
+    }
+}
+
+.section-aboutapp .about-p {
+    color: #485da7;
+    font-weight: bold;
+}
+
+.section-aboutapp .about-h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.section-aboutapp .main-p {
+    color: #485da7;
+}
+
+.section-aboutapp .btn-Join {
+    color: white;
+    width: fit-content;
+    padding: 1px 14px;
+    background: rgb(68, 93, 167);
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(68, 93, 167, 1) 57%, rgba(255, 255, 255, 0.48503151260504207) 100%);
+}
+
+/* ////////////////////////////// */
+
+.influ-head {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.influ-head p {
+    color: #485da7;
+}
+
+.influ-head .monent {
+    font-weight: 500;
+}
+
+.influ-body {
+    gap: 20px;
+}
+
+.influ-body .c-main {
+    width: 450px;
+    background-color: #dff6fc;
+    padding: 14px 15px;
+    border-radius: 20px;
+
+}
+
+
+.influ-body .c-main .ppp {
+    color: #485da7;
+    font-weight: 500;
+
+}
+
+
+.influ-body .btn-login {
+    width: fit-content;
+}
+
+/* ///////////////////////////////// */
+
+.foot-bg {
+    height: 600px;
+    background-image: url("../assets/Maskdown.png");
+    background-size: cover;
+    position: relative;
+
+}
+
+.footbody {
+    position: absolute;
+    max-width: 100%;
+    top: 30%;
+}
+
+@media (max-width: 576px) {
+    .footbody {
+        top: 7%;
+    }
+}
+
+@media (max-width: 992px) {
+    .footbody {
+        top: 18%;
+    }
+
+    .footbody .first-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footbody .btn-Join {
+    color: white;
+    width: fit-content;
+    padding: 1px 14px;
+    background: rgb(68, 93, 167);
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(68, 93, 167, 1) 57%, rgba(255, 255, 255, 0.48503151260504207) 100%);
+    margin-bottom: 5px;
+}
+
+.footbody .down {
+    color: #485da7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footbody .Vers {
+    color: #485da7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footbody .Lore {
+    color: #485da7;
+}
+
+@media (min-width: 992px) {
+    .footbody .Lore {
+        margin-right: 120px !important;
+    }
+}
+
+.footbody p.News {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footbody p.NewsLore {
+    padding-right: 170px;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .footbody p.NewsLore {
+        padding-right: 20px;
+    }
+}
+
+input.newsletter {
+    border: 0;
+    padding: 5px 70px 5px 10px;
+    outline: none;
+}
+
+.input {
+    position: relative;
+    width: fit-content;
+}
+
+.input .img {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
