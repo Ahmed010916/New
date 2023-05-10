@@ -9,10 +9,9 @@ html,body{
 /* ////////////////////////////////////// */
 .main-head {
     height: 700px;
-    background-image: url(./../assets/Masktop.png);
+    background-image: url(./../assets/Mask.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 
@@ -176,6 +175,17 @@ html,body{
     text-align: center;
 }
 
+.bgimg {
+    padding: 27px;
+    border-radius: 50%;
+    background: rgb(195,189,94);
+    background: linear-gradient(90deg, rgba(195,189,94,0.5998774509803921) 4%, rgba(109,123,146,1) 65%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .influ-head p {
     color: #485da7;
