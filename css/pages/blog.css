@@ -1,0 +1,59 @@
+
+
+ 
+
+.sectionBlog {
+    margin-top: -50%;
+}
+
+@media (max-width: 575.98px) { 
+    .sectionBlog {
+        margin-top: -100%;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .sectionBlog {
+        margin-top: -100%;
+    }
+}
+
+.card {
+    width: 250px;
+}
+
+@media (min-width: 1200px) { 
+    .card {
+        width: 300px;
+    }
+}
+
+.sectionBlog .date {
+    color: #485da7;
+}
+
+
+.sectionBlog .card-body .badge{
+    transform: translateY(-28px);
+    position: absolute;
+    left: 36%;
+    background-color: #485da7;
+    color: #fff;
+}
+
+.sectionBlog .card-body .last-text{
+    color: #485da7;
+    font-size: 15px;
+}
+
+.btn-next {
+    font-weight: 500;
+    color: #485da7;
+    padding: 3px -1px;    
+    background: rgb(255, 233, 72);
+    background: linear-gradient(90deg, rgba(255, 233, 72, 1) 16%, rgba(0, 183, 237, 0.7987570028011204) 79%);
+    width: fit-content;
+}
+.c {
+    color: #485da7;
+}

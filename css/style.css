@@ -9,7 +9,7 @@ html,body{
 /* ////////////////////////////////////// */
 .main-head {
     height: 700px;
-    background-image: url(./../assets/Mask.png);
+    background-image: url(./../assets/Masktop.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -200,7 +200,6 @@ html,body{
 }
 
 .influ-body .c-main {
-    width: 330px;
     background-color: #dff6fc;
     padding: 14px 15px;
     border-radius: 20px;
@@ -224,7 +223,7 @@ html,body{
 /* ///////////////////////////////// */
 
 .foot-bg {
-    height: 600px;
+    height: 780px;
     background-image: url("../assets/Maskdown.png");
     background-size: cover;
     position: relative;
@@ -235,11 +234,13 @@ html,body{
     position: absolute;
     max-width: 100%;
     top: 30%;
+    width: 100vw;
 }
 
 @media (max-width: 992px) {
     .footbody {
-        top: 18%;
+        top: 11%;
+        height: 600px;
     }
 
     .footbody .first-col {
@@ -252,7 +253,13 @@ html,body{
 
 @media (max-width: 576px) {
     .footbody {
-        top: 0%;
+        top: 12%;
+    }
+}
+
+@media (min-width: 992px) {
+    .foot-bg {
+        height: 600px;
     }
 }
 
@@ -298,7 +305,6 @@ html,body{
 }
 
 .footbody p.NewsLore {
-    padding-right: 170px;
     color: white;
 }
 
