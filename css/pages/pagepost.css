@@ -1,0 +1,93 @@
+
+
+
+.pagepost {
+    margin-top: -50%;
+}
+
+@media (max-width: 575.98px) { 
+    .pagepost {
+        margin-top: -100%;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .pagepost {
+        margin-top: -100%;
+    }
+}
+
+
+.post {
+    
+}
+
+.post .right{
+    min-height: 300px;
+}
+
+.post .left {
+    min-height: 300px;
+    
+}
+
+.post .left .search input{
+    background-color: #485da7;
+}
+.post .left .search input:focus{
+    box-shadow: none;
+}
+.post .left .search input::placeholder{
+
+    color:white;
+}
+
+.post .left .social{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.post .left .social .h3{
+
+    color: #485da7;
+    
+}
+
+.post .left .social div{
+
+    background-color: #485da7;
+    width: 80%;
+    cursor: pointer;
+    
+}
+
+.post .left .social .instagram{
+
+    background-color: #7b33a7;
+    
+}
+
+.post .left .social .linkedin{
+
+    background-color: #007bb6;
+    
+}
+
+
+.post .left .recentpost p{
+    color: #485da7;
+    margin: 0;
+}
+
+.post .left .recentpost img{
+    width: 70px;
+    height:70px;
+}
+
+.post .left .recentpost .date{
+    font-size: 14px;
+}
+

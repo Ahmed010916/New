@@ -42,7 +42,18 @@
 
 
 
+.form-check-input:checked {
+    background-color: #485da7;
+    border-color: #485da7;
+}
 
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #485da7;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #485da740;
+}
 
 .btn-submit {
     background-color: #485da7;
