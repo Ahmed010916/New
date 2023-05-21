@@ -91,3 +91,16 @@
     font-size: 14px;
 }
 
+.post .right .Lima{
+    background-color: #485da7;
+    color: #fff;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.post .right .bodypost{
+    color: #485da7;
+}
+
+
+
