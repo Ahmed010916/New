@@ -1,0 +1,188 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+}
+/* ////////////////////////////////////// */
+.main-head {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-head .navbar .logo {
+    width: 70px;
+    height: 50px;
+}
+
+.main-head .navbar .navbar-toggler:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.btn-login {
+    border: 2px solid #485da7;
+    padding: 3px 0px;
+    color: #485da7;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.btn-Usher {
+    border: 2px solid #485da7;
+    padding: 3px 0px;
+    color: #485da7;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.btn-Brans {
+    border: 2px solid #485da7;
+    padding: 3px 0px;
+    color: #485da7;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+
+.offcanvas.offcanvas-end {
+    width: 40%;
+}
+/* /////////////////////////////////////// */
+
+
+
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgpricacy {
+    width: 200px;
+}
+
+.privacy_h1 {
+    color: #485da7;
+    font-weight: bold;
+}
+
+.bodymainsection_lore {
+    max-width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* /////////////////////////////////////// */
+
+.foot-bg {
+    height: 780px;
+    background-image: url("../assets/Maskdown.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footbody {
+    gap: 30px;
+    justify-content: center;
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .foot-bg {
+        height: 615px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footbody .first-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.footbody .btn-Join {
+    color: white;
+    width: fit-content;
+    background: rgb(68, 93, 167);
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(68, 93, 167, 1) 57%, rgba(255, 255, 255, 0.48503151260504207) 100%);
+    margin-bottom: 5px;
+    padding: 4px 20px;
+    font-size: 17px;
+}
+
+.footbody .down {
+    color: #485da7;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footbody .Vers {
+    color: #485da7;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footbody .Lore {
+    color: #485da7;
+}
+
+@media (min-width: 992px) {
+    .footbody .Lore {
+        margin-right: 120px !important;
+    }
+}
+
+.footbody p.News {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footbody p.NewsLore {
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .footbody p.NewsLore {
+        padding-right: 20px;
+    }
+}
+
+input.newsletter {
+    border: 0;
+    padding: 5px 70px 5px 10px;
+    outline: none;
+}
+
+.input {
+    position: relative;
+    width: fit-content;
+}
+
+.input .img {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+/* ///////////////////////////////// */
+
